@@ -1,13 +1,16 @@
 class  Car:
     
-
-
-    def __init__(self,make,model,year,color,price):
+    def __init__(self,make,model,year,color,price=None,mileage=None):
         self.make = make 
         self.model = model
         self.year = year
         self.color = color
-        self.price = price
+
+        if price is not None:
+            self.price = price
+        
+        if mileage is not None:
+           self.mileage = mileage
 
 
     def drive(self):
