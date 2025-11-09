@@ -16,6 +16,12 @@ class  Car:
     def get_model(self):
         return self.model
 
+    def set_price(self,pr):
+        self.price= pr
+
+    def set_mileage(self,mil):
+        self.mileage= mil
+
 
 
     def drive(self):
