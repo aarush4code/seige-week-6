@@ -11,9 +11,9 @@ car_6 = Car("Chevrolet"," Corvette",2020,"Black")
 
 
 
-print("The first car we have here is a " + car_1.color + " " + car_1.make + " " + car_1.model + " for $" + str(car_1.price))
-print("The second car we have here is a " + car_2.color + " " + car_2.make + " " + car_2.model + " for $" + str(car_2.price))
+print("The first car we have here is a " + car_1.color + " " + car_1.make + " " + car_1.get_model() + " for $" + str(car_1.price))
+print("The second car we have here is a " + car_2.color + " " + car_2.make + " " + car_2.get_model() + " for $" + str(car_2.price))
 
-print("The 6th car we have here is a " + car_6.color + " " + car_6.make + " " + car_6.model ) 
+print("The 6th car we have here is a " + car_6.color + " " + car_6.make + " " + car_6.get_model() ) 
 
 # + " for $" + str(car_6.price))

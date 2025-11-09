@@ -13,6 +13,11 @@ class  Car:
            self.mileage = mileage
 
 
+    def get_model(self):
+        return self.model
+
+
+
     def drive(self):
         print("The car is driving!")
 
